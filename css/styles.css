@@ -1,0 +1,23 @@
+
+header {
+    text-align: center;
+    background-color: darkblue;
+    margin: 0;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 0 auto;
+    gap: 1em;
+}
+
+h2 {
+    margin: 0;
+}
+
+fieldset {
+    display:flex;
+    flex-direction: column;
+}
