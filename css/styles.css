@@ -131,6 +131,8 @@ button {
 footer {
     text-align: center;
     padding: 1em;
+    color: white;
+    background-color: rgb(6, 47, 96);
 }
 
 /* Media query size for desktop */
