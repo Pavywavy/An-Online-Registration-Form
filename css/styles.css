@@ -119,13 +119,13 @@ textarea {
 
 button {
     font-size: 18px;
-    padding: 0 20px;
     background-color: green;
     color: white;
     width: 100%;
     padding: 1em;
     border-style: none;
     border-radius: 5px;
+    font-family:"Merriweather", sans-serif;
 }
 
 footer {
