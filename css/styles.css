@@ -92,7 +92,6 @@ form label {
 
 input[placeholder] {
     font-size: 12px;
-    padding-left: 6px;
 }
 /*-------------*/
 
@@ -155,14 +154,21 @@ footer {
         width: 60%;
         margin: 0 auto;
     }
- 
+
     .contactInfo label {
+        margin-right: 2em;
         margin-bottom: 0;
-        padding-bottom: 1em;
         font-size: 14px;
-        width: 10em;
+        width: 9em;
+        padding: 0;
+        align-content: center;
     }
 
+    .contactInfo div:nth-child(-n+10) {
+        display: flex;
+        justify-content: space-between;
+        flex: 1;
+    }
 
     fieldset div {
         display: flex;
@@ -172,7 +178,7 @@ footer {
     .contactInfo #zipcode {
         width: 25%;
     }
-    .contactInfo input {
-        width: 23em;
+    .contactInfo input, select {
+        width: 68%;
     }
 }
