@@ -89,10 +89,13 @@ form label {
     font-size: 12px;
 }
 /* This is to customize the placeholder text in the input fields */
+
 input[placeholder] {
     font-size: 12px;
     padding-left: 6px;
 }
+/*-------------*/
+
 
 .contactInfo input, select {
     height: 2.5em;
