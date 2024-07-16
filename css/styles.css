@@ -156,7 +156,6 @@ footer {
     }
 
     .contactInfo label {
-        margin-right: 2em;
         margin-bottom: 0;
         font-size: 14px;
         width: 9em;
@@ -167,7 +166,10 @@ footer {
     .contactInfo div:nth-child(-n+10) {
         display: flex;
         justify-content: space-between;
-        flex: 1;
+    }
+
+    #name, #email, #phone, #city, #telephone, #state {
+        flex: 1 1 auto;
     }
 
     fieldset div {
