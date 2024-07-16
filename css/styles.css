@@ -57,12 +57,25 @@ div {
     display:flex;
     flex-direction: column;
     border: 0;
+    border-bottom: solid black 1px;
+    margin-bottom: 1.5em;
 }
 
-.newsLetter p, input {
-    margin: 1em 0;
+.contactInfo label {
+    margin-bottom: 0;
+    padding-bottom: 1em;
     font-size: 14px;
 }
+
+.newsLetter input {
+    font-size: 14px;
+    margin: .5em 0;
+}
+
+.newsLetter p {
+    margin: .75em 0;
+}
+
 
 main {
     display: flex;
@@ -74,12 +87,12 @@ main {
 
 form label {
     font-size: 12px;
-    margin-bottom: 1em;
 }
 
 .contactInfo input, select {
     height: 2.5em;
 }
+
 input, select {
     background-color: lightgray;
     border: none;
@@ -104,7 +117,6 @@ textarea {
     margin-bottom: 1em
 }
 
-
 button {
     font-size: 18px;
     padding: 0 20px;
@@ -115,7 +127,6 @@ button {
     border-style: none;
     border-radius: 5px;
 }
-
 
 footer {
     text-align: center;
