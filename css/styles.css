@@ -121,7 +121,7 @@ textarea {
     height: 6em;
     background-color: lightgrey;
     border-style: none;
-    margin-bottom: 1em
+    margin-bottom: 1em;
 }
 
 button {
@@ -140,6 +140,10 @@ footer {
     padding: 1em;
     color: white;
     background-color: rgb(6, 47, 96);
+}
+
+#otherTopics {
+    color:black;
 }
 
 /* Media query size for tablet */
